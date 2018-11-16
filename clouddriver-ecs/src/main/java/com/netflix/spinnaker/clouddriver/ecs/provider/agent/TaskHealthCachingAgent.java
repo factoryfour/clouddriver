@@ -233,6 +233,7 @@ public class TaskHealthCachingAgent extends AbstractEcsCachingAgent<TaskHealth> 
         return taskHealth;
       } catch (TargetGroupNotFoundException ignore) {
         // ignore
+        System.out.println("I CAUGHT SOMETHING!");
       }
     }
 
