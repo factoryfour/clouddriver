@@ -25,7 +25,7 @@ import com.amazonaws.services.elasticloadbalancingv2.model.DescribeTargetHealthR
 import com.amazonaws.services.elasticloadbalancingv2.model.DescribeTargetHealthResult;
 import com.amazonaws.services.elasticloadbalancingv2.model.TargetDescription;
 import com.amazonaws.services.elasticloadbalancingv2.model.TargetHealthDescription;
-import com.amazonaws.services.elasticloadbalancingv2.model.TargetGroupNotFoundException
+import com.amazonaws.services.elasticloadbalancingv2.model.TargetGroupNotFoundException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.netflix.spinnaker.cats.agent.AgentDataType;
 import com.netflix.spinnaker.cats.cache.CacheData;
