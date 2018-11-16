@@ -205,6 +205,7 @@ public class TaskHealthCachingAgent extends AbstractEcsCachingAgent<TaskHealth> 
                                                        ContainerInstance containerInstance,
                                                        String serviceName,
                                                        Service loadBalancerService) {
+    System.out.println("Hello cory!");
     int port = task.getContainers().get(0).getNetworkBindings().get(0).getHostPort();
 
     List<LoadBalancer> loadBalancers = loadBalancerService.getLoadBalancers();
